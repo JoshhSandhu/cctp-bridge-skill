@@ -1,0 +1,27 @@
+{
+  "name": "cctp-bridge",
+  "version": "1.0.0",
+  "description": "OpenClaw skill for bridging USDC across chains using Circle CCTP",
+  "main": "dist/index.js",
+  "bin": {
+    "cctp_bridge": "./bin/cctp_bridge"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "viem": "^2.0.0",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "keywords": ["openclaw", "skill", "usdc", "cctp", "bridge", "cross-chain"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lynx/cctp-bridge-skill"
+  }
+}
