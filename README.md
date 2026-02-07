@@ -55,10 +55,10 @@ cctp_bridge chains
 CCTP (Cross-Chain Transfer Protocol) is Circle's native bridging solution for USDC:
 
 ```
-┌─────────────────┐     ┌──────────────────┐     ┌─────────────────┐
+┌─────────────────┐      ┌──────────────────┐      ┌─────────────────┐
 │  Source Chain   │────▶│ Circle Attestation│────▶│ Destination Chain│
-│  (Burn USDC)    │     │    (Sign)        │     │  (Mint USDC)    │
-└─────────────────┘     └──────────────────┘     └─────────────────┘
+│  (Burn USDC)    │      │    (Sign)        │      │  (Mint USDC)    │
+└─────────────────┘      └──────────────────┘      └─────────────────┘
 ```
 
 1. **Burn**: USDC is burned on the source chain via `depositForBurn()`
